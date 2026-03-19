@@ -1,0 +1,68 @@
+---
+description: 
+alwaysApply: true
+---
+
+# General Coding Rules
+
+## Code Style
+- Always write clean, readable, and maintainable code.
+- Prefer small functions with single responsibility.
+- Use meaningful variable and function names.
+
+## Comments
+- Add comments only when logic is complex.
+- Avoid obvious comments.
+
+## Error Handling
+- Always include proper error handling.
+- Never ignore errors silently.
+
+## Performance
+- Prefer efficient algorithms and avoid unnecessary loops.
+Before writing code:
+
+1. analyze existing patterns
+2. follow project architecture
+3. reuse existing utilities
+4. avoid duplicate implementations
+
+Never introduce a new pattern if one already exists.
+
+When modifying code:
+
+- change minimal lines
+- never rewrite entire files
+- preserve existing structure
+
+Prefer small diffs.
+
+## Unit Test
+- Use the AAA pattern (Arrange, Act, Assert)
+- Test happy path, edge cases, and error cases
+- Mock all external dependencies (API, DB, filesystem, time)
+- Do NOT test implementation details
+- Tests must be deterministic
+- Use clear and descriptive test names
+- Cover boundary conditions and invalid inputs
+- Use factories or helper functions for test data
+- Keep tests independent and isolated
+
+Security principles:
+
+- validate all inputs
+- sanitize user data
+- never expose stack traces
+- use environment variables for secrets
+
+Avoid:
+
+- unnecessary loops
+- repeated DB queries
+- loading large datasets
+
+Prefer:
+
+- pagination
+- caching
+- lazy loading

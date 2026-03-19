@@ -1,0 +1,40 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Bal Badem",
+      "price": 25,
+      "image": "/images/ice-2.png"
+    },
+    {
+      "id": 2,
+      "name": "Çikolata Fırtınası",
+      "price": 20,
+      "image": "/images/ice-1.png"
+    },
+    {
+      "id": 3,
+      "name": "Karadut Serinliği",
+      "price": 28,
+      "image": "/images/ice-3.png"
+    },
+    {
+      "id": 4,
+      "name": "Vanilya Düşleri",
+      "price": 22.5,
+      "image": "/images/ice-4.png"
+    },
+    {
+      "id": 5,
+      "name": "Karamel Dalgalanması",
+      "price": 32,
+      "image": "/images/ice-1.png"
+    },
+    {
+      "id": 6,
+      "name": "Fıstık Rüyası",
+      "price": 34,
+      "image": "/images/ice-3.png"
+    }
+  ]
+}
